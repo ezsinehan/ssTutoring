@@ -1,0 +1,87 @@
+/* 
+color palete
+#124037 (Dark Green)
+#3E8C6F (Light Green)
+#8C6645 (Dark Beige)
+#D99F6C (Beige)
+#592E2A (Brownish Maroon)
+#F0D185 (Gold Lettering)
+*/
+body {
+  background-color: #124037;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ssTop {
+  background-color: #124037;
+  margin: 0;
+}
+
+
+.ssPage {
+  display: inline-block;
+  color: #F0D185; 
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #124037;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+
+.ssPage:hover {
+  transform: scale(1.1);
+  background-color: #0e342c;
+  transition: all 0.5s;
+}
+
+.ssLogin {
+  color: #F0D185;
+  text-decoration: none;
+  float: right;
+  background-color: #124037;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.ssLogin:hover {
+  transform: scale(1.1);
+  background-color: #0e342c;
+  transition: transform 0.5s;
+}
+
+.ssLogo {
+  display: inline-flex;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+.ssTitle {
+  color: #F0D185;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-top: 30px;
+  display: inline-flex;
+  vertical-align: top;
+}
+
+footer.ssFoot {
+  background-color: #0e342c;
+  color: #F0D185;
+  font-size: 14px;
+  text-align: center;
+}
+
+.ssFunButton {
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #124037;
+  color: #F0D185;
+  padding: 10px;
+  border-radius: 5px;
+}
