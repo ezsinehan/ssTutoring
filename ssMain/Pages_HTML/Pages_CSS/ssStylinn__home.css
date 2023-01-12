@@ -87,10 +87,13 @@ footer.ssFoot {
 }
 
 .container{
-    --color-primary: #009579;
-    --color-primary-dark: #007f67;
-    --color-secondary: #252c6a;
+    --color-lightgreen: #3E8C6F ; 
+    --color-primary-dark: #124037;
+    --color-beige: #8C6645;
+    --color-beige-dark:#8C6645;
     --color-error: #cc3333;
+    --color-brown-maroon:#592E2A;
+    --color-gold-lettering: #F0D185;
     --color-success: #4bb544;
     --border-radius: 4px;
     color: #F0D185;
@@ -109,7 +112,7 @@ footer.ssFoot {
 .container,
 .form_input, 
 .form_button {
-    font: 500 1rem "Quicksand", sans-serif;
+    font: 500 1rem "Times New Roman", sans-serif;
 }
 
 .form_title{
@@ -147,7 +150,7 @@ footer.ssFoot {
   padding: 0.75rem;
   box-sizing: border-box;
   border-radius: 5px;
-  border: 3px solid #dddddd;
+  border: 3px solid var(--color-primary-dark);
   outline: none;
   background: #eeeeee;
   transition: background 0.2s, border-color 0.2s;
@@ -166,7 +169,7 @@ footer.ssFoot {
 .input_error{
   margin-top: 0.5rem;
   font-size: 0.85rem;
-  color: red
+  color: var(--color-error)
 }
 
 .form_button{
@@ -175,6 +178,31 @@ footer.ssFoot {
   font-weight: bold;
   font-size: 1.1rem;;
   border: none;
-  border-radius: 4px;
-  
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+  background: #0e342c;
 }
+
+.form_button:hover{
+  background: var(--color-lightgreen);
+  color: var(--color-gold-lettering);
+}
+
+.form_button:active{
+  transform: scale(0.98);
+}
+
+.form_text{
+  text-align: center;
+}
+
+.form_link{
+  color: var(--color-gold-lettering);
+  text-decoration: none;
+}
+
+.form_link :hover{
+  text-decoration: underline;
+}
+
