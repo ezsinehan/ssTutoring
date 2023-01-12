@@ -86,6 +86,12 @@ footer.ssFoot {
   border-radius: 5px;
 }
 
+.infosection {
+  margin: 100px auto 100px auto;
+  width: fit-content;
+  height: fit-content;
+}
+
 .container{
     --color-lightgreen: #3E8C6F ; 
     --color-primary-dark: #124037;
@@ -101,7 +107,7 @@ footer.ssFoot {
     font-size: 25px;
     align-items: center;
     justify-content: center;
-    width:400px;
+    width: 400px;
     max-width:400px;
     margin: 1rem;
     padding: 2rem;
