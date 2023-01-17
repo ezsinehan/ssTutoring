@@ -43,6 +43,10 @@ if (mysqli_connect_error()) {
     }
     $stmt->close();
     $conn->close();
+
+    header("Location: ../ssHiddenPages/ssPostSubmissionPage.html");
+exit;
+
 }
 }
 
