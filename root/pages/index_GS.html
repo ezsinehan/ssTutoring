@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ssLogin</title>
+  <link rel="icon" href="Pages_Images/polotno2.png">
+  <link rel="stylesheet" href="Pages_CSS/ssStylinn__home.css">
+  <script src="../ssJava.js"></script>
+</head>
+<body>
+  <div class="ssTop">
+    <div>
+      <img class="ssLogo" src="Pages_Images/polotno2.png" width="120px">
+      <h1 class="ssTitle">SStutoring</h1>
+    </div>
+    <div>
+      <nav>
+        <a href="../ssMainpage.html" class="ssPage">Home</a>
+        <a href="ssClasses.html" class="ssPage">Classes</a>
+        <a href="ssSupport.html" class="ssPage">Support</a>
+        <a href="ssGS.html" class="ssPage">Get Started</a>
+      </nav>
+    </div>
+</div> 
+  <div class="infosection">
+    <div class="container">
+      <form action="connect copy.php" method = "POST" id = "form">
+          <form class="form" id = "login">
+              <h1 class="form_title">Get Started</h1>
+              <div class="form_error"></div>
+              <div class="form_input-group">
+                  <input type="text" class="form_input" id = "firstName" name = "firstName" autofocus placeholder="Your First Name" >
+                  <input type="text" class="form_input" id = "lastName" name = "lastName" autofocus placeholder="Your Last Name">
+                  <input type="text" class="form_input" id = "email" name = "email" autofocus placeholder="Email">
+                  <input type="text" class="form_input" id = "phoneNumber" name = "phoneNumber" autofocus placeholder="Phone Number">
+                  <div class="input_error"></div>
+              </div>
+              <button class="form_button" type = "submit" >Continue</button>
+          </form>
+    </div>
+  </div>
+<footer class="ssFoot">
+  <p>Copyright 2023</p>
+  <p>Contact us: info@sstutoring.com</p>
+  <a href="#" class="ssFunButton">to top</a>
+</footer>
+</body>
+</html>

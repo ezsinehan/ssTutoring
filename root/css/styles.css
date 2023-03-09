@@ -1,0 +1,188 @@
+/* 
+color palete
+#124037 (Dark Green)
+#3E8C6F (Light Green)
+#8C6645 (Dark Beige)
+#D99F6C (Beige)
+#592E2A (Brownish Maroon)
+#F0D185 (Gold Lettering)
+*/
+
+body {
+  background-color: #124037;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ssTop {
+  background-color: #124037;
+  margin: 0;
+}
+
+
+.ssPage {
+  display: inline-block;
+  color: #F0D185; 
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #124037;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+
+.ssPage:hover {
+  transform: scale(1.1);
+  background-color: #0e342c;
+  transition: all 0.5s;
+}
+
+.ssLogin {
+  color: #F0D185;
+  text-decoration: none;
+  float: right;
+  background-color: #124037;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.ssLogin:hover {
+  transform: scale(1.1);
+  background-color: #0e342c;
+  transition: transform 0.5s;
+}
+
+.ssLogo {
+  display: inline-flex;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+.ssTitle {
+  color: #F0D185;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-top: 30px;
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.ssMid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/pexels-pixabay-159711.jpg");
+  height: fit-content;
+  width: fit-content;
+}
+
+
+.ssHeading__A1 {
+  color: #F0D185;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 100px 1000px 75px 100px;
+}
+
+.ssTalk__A1 {
+  color: #F0D185;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 100px 75px 900px;
+}
+
+footer.ssFoot {
+  background-color: #0e342c;
+  color: #F0D185;
+  font-size: 14px;
+  text-align: center;
+}
+
+.ssFunButton {
+  text-decoration: none;
+  position: fixed  ;
+  bottom: 20px;
+  right: 20px;
+  background-color: #124037;
+  color: #F0D185;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ssMid2 {
+  background-color: #0e342c;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+}
+
+.ssMid2Heading {
+  color: #F0D185;
+  background-color: #124037;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-left: 100px;
+  border: 2px solid #F0D185;
+}
+
+.ssMid2Talk {
+  color: #F0D185;
+  background-color: #124037;
+  font-size: 25px;
+  padding: 20px 20px 20px 20px;
+  margin: 50px 100px 50px 100px;
+  border: 2px solid #F0D185;
+
+}
+
+.ssButton {
+  background-color: #0e342c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding-bottom: 60px;
+  padding-top: 25px;
+}
+
+.but1 {
+  margin-right: 400px;
+  padding: 20px 50px 20px 50px;
+  background-color: #124037;
+  color: #F0D185;
+  border: 2px solid #F0D185;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.but1:hover {
+  transition: 0.3s;
+  background-color: #0e342c;
+  box-shadow: 0 0 3px #F0D185;
+  transform: scale(1.05);
+}
+
+.but2 {
+  margin-left: 100px;
+  padding: 20px 50px 20px 50px;
+  background-color: #124037;
+  color: #F0D185;
+  border: 2px solid #F0D185;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.but2:hover {
+  transition: 0.3s;
+  background-color: #0e342c;
+  box-shadow: 0 0 3px #F0D185;
+  transform: scale(1.05);
+}
+
+
